@@ -1,0 +1,5 @@
+{
+  "name": "Restaurant Ordering System",
+  "description": "A modern restaurant ordering system with a dynamic menu fetched from an online API. Users can browse items, search, place orders, and view past orders. This frontend could be a starting point for a system with a Java backend, as requested.",
+  "requestFramePermissions": []
+}

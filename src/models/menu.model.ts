@@ -11,8 +11,15 @@ export interface Category {
   items: MenuItem[];
 }
 
-export interface CartItem extends MenuItem {
-  quantity: number;
+export interface CartItem extends MenuItem {  
+  quantity:number;
+}
+
+export interface Order {
+  id: number;
+  date: string;
+  items: CartItem[];
+  total: number;
 }
 
 export interface PastOrder {
